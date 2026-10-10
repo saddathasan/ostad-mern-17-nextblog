@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@layer components {
+	.dev-border-1 {
+		@apply border-2 border-red-500 border-dashed;
+	}
+	.dev-border-2 {
+		@apply border-2 border-blue-700 border-dashed;
+	}
+}
